@@ -16,7 +16,7 @@ def get_file_array(filename, polyhedral_count):
         with open(filename, mode ='r', newline='') as csvfile:   
             sumreader = csv.reader(csvfile, delimiter=",")   #, quotechar="|"
             for x in sumreader:
-                file_aaray.append(x)   ###MAYBE INSERT(0
+                file_aaray.append(x)
         print(f"loaded file...")
         return file_aaray
 
@@ -27,11 +27,9 @@ def get_file_array(filename, polyhedral_count):
         empty_string2.append(str(polyhedral_count))
         for i in my_range(1, polyhedral_count, 1):
             empty_string2.append('0')
-        print(f"(line30/imprt)empty_string2: {empty_string2}")
 
         empty_string_set = list()
         empty_string_set.insert(0, empty_string2)
-        print(f"(line31/imprt)empty_string_set: {empty_string_set}")
 
         with open(filename, 'w', newline='') as csvfile:
             csvwriter = csv.writer(csvfile)
