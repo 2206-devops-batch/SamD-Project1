@@ -1,4 +1,4 @@
-#created by Sam Dare 6/21/2022
+#created by Sam Dare 6/19/2022
 #runs the dice statistics using my_dice_ver_5 as the backbone
 
 import argparse
