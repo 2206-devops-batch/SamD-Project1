@@ -1,3 +1,6 @@
+#created by Sam Dare 
+#runs the dice statistics using my_dice_ver_5 as the backbone
+
 import argparse
 import my_dice_ver_5
 
