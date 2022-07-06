@@ -73,8 +73,8 @@ def get_set(polyhedral_count):
 def sort_set(polyhedral_count, my_sort_list, file_row):
     result_list = []
     for i in my_range(1, polyhedral_count, 1): 
-        x = my_sort_list.count(i)
-        y = file_row[i - 1]
+        x = 1#my_sort_list.count(i)
+        y = 2#file_row[i - 1]
         result_of_adding_new_count_with_old_count = x + y
         result_list.append(str(result_of_adding_new_count_with_old_count))
     return result_list
